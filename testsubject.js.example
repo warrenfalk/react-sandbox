@@ -1,0 +1,9 @@
+/*
+
+In order to test your my-awesome-module, run
+
+npm link my-awesome-module
+And make sure it is spelled correctly, below
+
+*/
+module.exports = require('my-awesome-module/dev');

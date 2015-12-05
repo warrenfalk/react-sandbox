@@ -1,0 +1,32 @@
+{
+  "name": "react-sandbox",
+  "version": "1.0.0",
+  "description": "a sandbox for incubating fledgling react components",
+  "main": "server.js",
+  "scripts": {
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors",
+    "test": "false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/warren/react-sandbox.git"
+  },
+  "keywords": [
+    "react",
+    "sandbox",
+    "tools"
+  ],
+  "author": "Warren Falk <warren@warrenfalk.com>",
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/warren/react-sandbox#readme",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "jsx-loader": "^0.13.2",
+    "minimist": "^1.2.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
